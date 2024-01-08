@@ -48,7 +48,7 @@ WSGI_APPLICATION = "source.core.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
-        "NAME": "C:\\Users\\yayal\Desktop\\django_template\\db.sqlite3",  # noqa: W605
+        "NAME": "C:\\Users\\ASUS\\Desktop\\django_template\\db.sqlite3",  # noqa: W605
     }
 }
 

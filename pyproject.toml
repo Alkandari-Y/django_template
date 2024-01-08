@@ -21,6 +21,7 @@ mypy = "^1.8.0"
 flake8 = "^7.0.0"
 black = "^23.12.1"
 pre-commit = "^3.6.0"
+colorlog = "^6.8.0"
 
 [tool.isort]
 multi_line_output = 5
