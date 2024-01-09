@@ -46,9 +46,20 @@ TEMPLATES = [
 WSGI_APPLICATION = "source.core.wsgi.application"
 
 DATABASES = {
+    # "default": {
+    #     "ENGINE": "django.db.backends.sqlite3",
+    #     # "NAME": "C:\\\Users\\ASUS\\Desktop\\django_template\\db.sqlite3",  # noqa: W605
+    #     "NAME": "C:\\Users\\yayal\\Desktop\\django_template\\db.sqlite3",  # noqa: W605
+    # }
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": "C:\\Users\\ASUS\\Desktop\\django_template\\db.sqlite3",  # noqa: W605
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "django_db",
+        "USER": "django_db",
+        "PASSWORD": "django_db",
+        "HOST": "localhost",
+        "PORT": "5432",
+        "ATOMIC_REQUESTS": True,
+        "CONN_MAX_AGE": 600,
     }
 }
 
